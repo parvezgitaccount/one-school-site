@@ -7,6 +7,7 @@
     <title>One Schoool Webdesign</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel=" stylesheet " href="style.css ">
+    <link rel="stylesheet" href="stylemi.css">
 </head>
 
 <body>
@@ -22,16 +23,16 @@
                 <span class="navbar-text">
                     <ul class="navbar-nav mr-auto ">
                         <li class="nav-item active">
-                            <a class="nav-link nav-li" href="#home"target="_black" style="text-align: center;"><span>Books</span> </a>
+                            <a class="nav-link nav-li" href="#book"target="_black" style="text-align: center;"><span>Books</span> </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link nav-li" href="#prouduct" target="_black"><span>Courses</span></a>
+                    <a class="nav-link nav-li" href="#course" target="_black"><span>Courses</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link  nav-li" href="#About Us" target="_black"><span>others</span></a>
+                    <a class="nav-link  nav-li" href="#join" target="_black"><span>REG..</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link nav-li " href="#contact " target="_black"><span>Blog</span></a>
+                    <a class="nav-link nav-li " href="#contact " target="_black"><span>More</span></a>
                 </li>
                 <li class="nav-item ">
                     <a href="#" class=" nav-link sign-in ">Sign in</a>
@@ -68,7 +69,7 @@
 
     <!-- this is book item  -->
 
-    <div class="container">
+    <div class="container" id="book">
 
         <div class="row book-top">
             <div class="col-md-6">
@@ -85,7 +86,7 @@
         <div class="row">
             <div class="col-md-3 col-auto">
                 <div>
-                    <div class="active">
+                    <div class="active1">
                         <img src="ICON/book.png" alt="" class="w-100 modi1">
                         <h2>1500+Topic</h2>
                         <h4>What is your choice</h4>
@@ -95,7 +96,7 @@
             </div>
             <div class="col-md-3">
                 <div>
-                    <div class="active">
+                    <div class="active1">
                         <img src="ICON/Student.png" alt="" class="w-100 modi">
                         <h2>1800+Student</h2>
                         <h4> You will join here right </h4>
@@ -105,7 +106,7 @@
             </div>
             <div class="col-md-3">
                 <div>
-                    <div class="active">
+                    <div class="active1">
                         <img src="ICON/Test.png" alt="" class="w-100 modi">
                         <h2>9K+Students</h2>
                         <h4>The section students</h4>
@@ -115,7 +116,7 @@
             </div>
             <div class="col-md-3">
                 <div>
-                    <div class="active">
+                    <div class="active1">
                         <img src="ICON/Students.png" alt="" class="w-100 modi">
                         <h2>2000+Students</h2>
                         <h4>This section student </h4>
@@ -129,7 +130,7 @@
 
         <!-- this oneline course secton  -->
 
-        <div class="container oneline-gap">
+        <div class="container oneline-gap" id="course">
             <div class="row book-top">
                 <div class="col-md-6">
                     <div class="w-100 left">
@@ -225,83 +226,139 @@
         <!-- start destomoniead section  -->
     </div>
 
-    <!-- this is footer sectoion  -->
 
-    <div class="container ">
-        <div class="row my-footer ">
-            <div class="col-md-5 para ">
-                <p>Milions of people of all agees and form around tho world are improving thcir livos wirh Us
-                </p>
-            </div>
-            <div class=" row col-md-7 align-items-center">
-                <div class="col-md-4 bottom-pad">
-                    <ul>
-                        <li>
-                            <h3>Courses</h3>
-                        </li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">BUsness</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Engineering</a></li>
+    <!-- this is contact section  -->
+    <!-- contact section  -->
+    <div class="container" id="join">
+        <h1 style="text-align: center; margin-bottom: 20px; color:  #21B573;;"> Registration Now</h1>
+        <div class="form">
 
-                        </u>
-                </div>
-                <div class="col-md-4  bottom-pad">
-                    <ul>
-                        <li>
-                            <h3>Terms</h3>
-                        </li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">BUsness</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Engineering</a></li>
+            <form id="contactform" class="input-from">
 
-                        </u>
-                </div>
-                <div class="col-md-4  bottom-pad">
-                    <ul>
-                        <li>
-                            <h3>Useful Link</h3>
-                        </li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">BUsness</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Engineering</a></li>
+                <p class="contact"><label for="name">Name</label></p>
 
-                        </u>
-                </div>
+                <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text">
 
-            </div>
+
+
+                <p class="contact"><label for="email">Email</label></p>
+
+                <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+
+
+
+                <p class="contact"><label for="username">Create a username</label></p>
+
+                <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text">
+                <p class="contact"><label for="password">Create a password</label>
+
+                    <input type="password" id="password" name="password" required="" type="text">
+                    <p class="contact"><label for="repassword">Confirm your password</label>
+
+                        <input type="password" id="password" name="password" required="" type="text">
+                        <fieldset>
+
+
+                            <!-- <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
+                            <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label> -->
+                        </fieldset>
+
+                        <select class="select-style gender" name="gender">
+        
+                        <option value="select">i am..</option>
+        
+                        <option value="m">Male</option>
+        
+                        <option value="f">Female</option>
+        
+                        <option value="others">Other</option>
+        
+                        </select><br><br>
+                        <p class="contact"><label for="phone">Mobile phone</label></p>
+
+                        <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+                        <input class="buttom submit-buttom" name="submit" id="submit" tabindex="5" value="SUBMIT!" type="submit">
+            </form>
 
         </div>
-        <div class="row copy ">
-            <div class="col-md-12">
-                <h5>Concatct Us</h5>
-                <h5>&copy;parvezpatwery6023@gmail.com</h5>
+        <!-- this is contact section  -->
+        <!-- this is footer sectoion  -->
+
+        <div class="container " id="contact">
+            <div class="row my-footer ">
+                <div class="col-md-5 para ">
+                    <p>Milions of people of all agees and form around tho world are improving thcir livos wirh Us
+                    </p>
+                </div>
+                <div class=" row col-md-7 align-items-center">
+                    <div class="col-md-4 bottom-pad">
+                        <ul>
+                            <li>
+                                <h3>Courses</h3>
+                            </li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">BUsness</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Engineering</a></li>
+
+                            </u>
+                    </div>
+                    <div class="col-md-4  bottom-pad">
+                        <ul>
+                            <li>
+                                <h3>Terms</h3>
+                            </li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">BUsness</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Engineering</a></li>
+
+                            </u>
+                    </div>
+                    <div class="col-md-4  bottom-pad">
+                        <ul>
+                            <li>
+                                <h3>Useful Link</h3>
+                            </li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">BUsness</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Engineering</a></li>
+
+                            </u>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row copy ">
+                <div class="col-md-12">
+                    <h5>Concatct Us</h5>
+                    <h5>&copy;https://bangla2.programming-hero.com/</h5>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- this is footer sectoion  -->
-
-
+        <!-- this is footer sectoion  -->
 
 
 
 
-    <!-- modigfiay section  -->
 
-    <!-- modigfiay section  -->
-    <!-- end home section  -->
-    <!-- this is jave script on the project  -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
-    <!-- this is jave script on the project  -->
+
+        <!-- modigfiay section  -->
+
+        <!-- modigfiay section  -->
+        <!-- end home section  -->
+        <!-- this is jave script on the project  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+        <!-- this is jave script on the project  -->
 </body>
 
 </html>
