@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    width: 150px;
+    height: 50px;
+    margin-right: auto;
+    align-items: center;
+}
+
+.navbar-text {
+    margin-left: auto;
+}
+
+.color-bg {
+    background-color: #F0FFF0;
+}
+
+.container {
+    padding-bottom: 120px;
+}
+
+.navbar-nav a span:hover {
+    border-bottom: 5px solid #21B573;
+    padding: 5px 0px;
+}
+
+.sign-in {
+    background-color: #21B573;
+    text-align: center;
+    width: 120px;
+    margin: auto;
+    height: 49px;
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+
+.sign-in:hover {
+    background-color: #1ae28b;
+    transition: 1s ease;
+    -webkit-box-shadow: 3px 3px 5px 10px white;
+    -moz-box-shadow: 2px 2px 2px 15px white;
+    box-shadow: 1px 2px 20px 5px lightgray;
+}
+
+body {
+    text-align: center;
+}
+
+.nav-li {
+    width: 100px;
+    font-size: 20px;
+    color: teal;
+}
+
+
+/* end navbar section  */
+
+
+/* home section */
+
+.color-bg1 {
+    background-color: #F0FFF0;
+    width: 100%;
+    height: 700px;
+}
+
+.home-padding {
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.aside {
+    width: 80%;
+    margin: auto;
+}
+
+.aside span {
+    color: #21B573;
+    font-size: 50px;
+}
+
+.aside p {
+    font-size: 20px;
+    color: teal;
+    padding: 10px 0px;
+}
+
+.aside h4 {
+    color: rgb(90, 148, 148);
+    padding: 8px 0;
+}
+
+.aside .get {
+    background-color: #21B573;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+.aside .get:hover {
+    background-color: #1ae28b;
+    transition: 1s ease;
+    -webkit-box-shadow: 3px 3px 5px 10px white;
+    -moz-box-shadow: 2px 2px 2px 15px white;
+    box-shadow: 1px 2px 20px 5px lightgray;
+}
+
+
+/* book section  */
+
+.book-top .left {
+    text-align: left;
+    color: #3981d4e5;
+}
+
+.book-top .right {
+    text-align: right;
+}
+
+.book-top .right a span {
+    color: white;
+    letter-spacing: 0.2px;
+}
+
+.book-top .right a:hover>span {
+    color: #1ae28b;
+    font-size: 30px;
+}
+
+.book-top .right a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 0px;
+    color: #1ae28b;
+    ;
+}
+
+.book-top .right a:hover {
+    border-bottom: 5px solid #1ae28b;
+    color: #1ae28b;
+}
+
+.back1 h5 {
+    background-color: 2px solid white;
+}
+
+.cal-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+}
+
+.coto {
+    padding-top: 17px;
+}
+
+.serieal ul {
+    display: inline-block;
+    width: 100%;
+}
+
+.serieal ul li {
+    float: left;
+    list-style: none;
+}
+
+.book-top {
+    padding: 50px 0px;
+}
+
+.li1 {
+    width: 15px;
+    height: 15px;
+}
+
+.li3 {
+    margin-left: 15px;
+}
+
+.serieal {
+    background-color: white;
+    border-top: none;
+}
+
+.card {
+    -webkit-box-shadow: 3px 3px 5px 10px white;
+    -moz-box-shadow: 2px 2px 2px 15px white;
+    box-shadow: 1px 2px 20px 5px lightgray;
+}
+
+.testomo {
+    width: 75%;
+    margin: auto;
+}
+
+.testomo p {
+    padding: 10px 20px;
+}
+
+.testo {
+    font-size: 50px;
+    padding-bottom: 80px;
+    padding-top: -80px;
+}
+
+.my-footer {
+    background: rgb(202, 117, 117);
+    color: wheat;
+}
+
+.para p {
+    color: turquoise;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.bottom-pad {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bottom-pad li {
+    list-style: none;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.bottom-pad li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: turquoise
+}
+
+.bottom-pad li a:hover {
+    color: white;
+    border-bottom: 5px solid rgb(211, 151, 151);
+}
+
+.copy {
+    background-color: rgb(94, 77, 77);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+/* this is footer section  */
+
+
+/* oneline book section  */
+
+.oneline-gap {
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+
+.course h6 {
+    float: left;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.course h4 {
+    padding-top: 40px;
+    float: left;
+}
+
+.course .buycourse {
+    float: left;
+}
+
+.course a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.buycourse {
+    padding-top: 10px;
+    background-color: #21B573;
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-left: 0px;
+}
+
+.course a:hover {
+    background-color: #1ae28b;
+    color: whitesmoke;
+    transition: 1s ease;
+    -webkit-box-shadow: 3px 3px 5px 10px white;
+    -moz-box-shadow: 2px 2px 2px 15px white;
+    box-shadow: 1px 2px 20px 5px lightgray;
+}
+
+
+/* oneline book section  */
+
+
+/* modifiay section  */
+
+.modifay {
+    padding: 20px 20px;
+}
+
+.modifay img {
+    padding: 100px 20px;
+}
+
+.modi {
+    padding: 7px 72px;
+}
+
+.modi1 {
+    padding: 7px 79px;
+}
+
+.active {
+    background-color: #F0FFF0;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.active:hover {
+    -webkit-box-shadow: 3px 3px 5px 10px white;
+    -moz-box-shadow: 2px 2px 2px 15px white;
+    box-shadow: 1px 2px 20px 5px lightgray;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    background-color: white;
+    transition: 1s ease;
+}
+
+.active h2 {
+    padding-top: 50px;
+}
+
+.active h4 {
+    padding-bottom: 20px;
+}
+
+.active1 h2 {
+    padding-top: 50px;
+}
+
+.active1 h4 {
+    padding-bottom: 20px;
+}
+
+
+/* .active1 {
+    -webkit-box-shadow: 3px 3px 5px 10px white;
+    -moz-box-shadow: 2px 2px 2px 15px white;
+    box-shadow: 1px 2px 20px 5px lightgray;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 20px;cou
+} */
+
+
+/* modifiay section  */
+
+
+/* destomonieal section  */
+
+
+/* .testp {
+            font-size: 19px;
+        } */
+
+
+/* destomonieal section  */
